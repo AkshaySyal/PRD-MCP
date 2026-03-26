@@ -1,27 +1,7 @@
 # PRD-MCP
 Fixing bad Plan mode of coding agents
 
-UX / Design Requirements (Define user experience expectations)
-Wireframes / mock descriptions [My final deliverable could be a figma doc. I would rather give a figma than a ppt or just words if the product does not work]
-Interaction patterns
-Error states
-Accessibility considerations
-Technical Considerations (Align with engineering early [in my case, it is the coding agent])
-Architecture overview
-Dependencies (APIs, models, infra)
-Constraints
-Tradeoffs
-Risks & Mitigations (Show you’ve thought ahead)
-Product risks
-Technical risks
-Data risks
-Mitigation strategies
-
-—————————————————————————————————————————
-
 UPDATED PRD FLOW (thinking about Inputs, Process, Outputs structured according to Flow)
-
-FLOW
 
 1. [INPUT] **User query**: User gives a core idea, a problem to solve or just give a specific library or API to use or literally anything
 2. [PROCESS] **User query enrichment**: Perform a configurable amount of web searches and gather additional context relevant to user query.
@@ -53,12 +33,28 @@ FLOW
   		2. Frequency (how often the problem surfaces)
 		3. Reach (how many people the problem affects)
     5. Present ranked options to user. Allow user to select the final pain point to pursue 
-6. [PROCESS] Re-define the Product Goal
-Reframe the prioritized Pain Point
-Define the Northstar Metric
-A/B Testing strategy (how do we know if the feature is working)
-Software System Design and Data 
-Given the Re-defined Product Goal, come up with 3 features to build. Think creatively here. For each feature come up with the following:
-Functional requirements
-Non-functional requirements
-Dashboard to monitor KPIs and enable decision-making regarding the feature 
+6. [PROCESS] **Re-define the Product Goal**
+	1. Reframe the prioritized Pain Point as the product goal
+	2. Define the Northstar Metric
+7. [PROCESS] **UX Design**: Come up with 3 features to solve the Pain Point. Till now you have been thinking logically. But here think creatively. For each feature think about:
+	1. Interaction patterns
+	2. Error states
+	3. Accessibility considerations
+ 8. [OPTIONAL INPUT] Ask the user to review the proposed features and ask whether to include, exclude, or refine them. The user may also suggest additional features.
+ 9. [PROCESS] DATA SYSTEM DESIGN: For each approved feature come up with:
+  	1. A/B Testing strategy (how do we know if the feature is working)
+    2. KPIs to monitor and enable decision-making regarding the feature
+    3. Dashboard specs (like what visualizations to use)  
+ 9. [PROCESS] SOFTWARE SYSTEM DESIGN: Incorporating each approved feature come up with the following:
+  	1. Functional requirements
+    2. Non-functional requirements
+    3. System Architecture overview
+    4. Dependencies (APIs, models, infra)
+10. [PROCESS] Finally deliver the following:
+    1. End-to-end implementation of all features
+    2. Dashboard screen (one page to monitor KPIs of all the features)
+    3. Risks & corresponding Mitigation strategies
+     	1. Product risks
+      	2. Technical risks
+       	3. Data risks
+
