@@ -35,14 +35,13 @@ FLOW
 4. [PROCESS] User Empathy: Given additional context you can start **Empathizing** with the user. You need to think about these high level product goals:
  	1. User Lifecycle (sequence of stages a user goes through in your product)
     	1. Acquisition: Bringing users into the product
-     2. Activation: The moment a new user experiences the core value of the product for the first time
-	4. Engagement: How actively users use your product
-	Monetization: how the product converts user value into revenue
-User Experience
-Product Quality: how good, reliable, and satisfying the product experience is for users
-Funnel smoothness: how users move step-by-step through the product lifecycle
-	The idea is to prioritize a specific high level product goal given the enriched user query. For eg given the context that the user is trying to design a feature for a voice-agent powered iOS dating app that is recently launched in SF, based on web search, the app has less number of downloads, even though the engagement with existing users is high (people already like the voice-agent), hence the key thing to work on is Acquisition. The context available on the internet will not give a complete picture, a lot of relevant context is only available when you talk to the specific people of the company and you are working in the same room. Regardless of the incomplete context the underlying thought process needs to be strategic. It needs to justify why this product goal can be solved given the context.
-We can start empathizing with user now
+     	2. Activation: The moment a new user experiences the core value of the product for the first time
+	   	3. Engagement: How actively users use your product
+		4. Monetization: how the product converts user value into revenue
+	2. User Experience
+		1. Product Quality: how good, reliable, and satisfying the product experience is for users
+		2. Funnel smoothness: how users move step-by-step through the product lifecycle
+	The goal is to prioritize a high-level product objective based on the enriched user query. External context alone is often incomplete; critical insights typically emerge through 	direct collaboration with stakeholders. Despite this uncertainty, the decision-making process must remain strategic. It is essential to clearly justify why the chosen product 		goal is relevant and worth solving given the available context.We can start empathizing with user now
 Come up with User persona
 Come up with User journey based on their persona
 Derive specific User pain points based on the journey
