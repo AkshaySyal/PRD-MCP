@@ -40,7 +40,7 @@ FLOW
 		4. Monetization: how the product converts user value into revenue
 	2. User Experience
 		1. Product Quality: how good, reliable, and satisfying the product experience is for users
-		2. Funnel smoothness: how users move step-by-step through the product lifecycle
+		2. Funnel smoothness: how users move step-by-step through the product lifecycle <br>
 	The goal is to prioritize a high-level product objective based on the enriched user query. External context alone is often incomplete; critical insights typically emerge through 	direct collaboration with stakeholders. Despite this uncertainty, the decision-making process must remain strategic. It is essential to clearly justify why the chosen product 		goal is relevant and worth solving given the available context.We can start empathizing with user now
 Come up with User persona
 Come up with User journey based on their persona
