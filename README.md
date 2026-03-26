@@ -38,17 +38,22 @@ FLOW
 	3. Engagement: Drive deeper and more frequent interactions that reflect meaningful product usage
 	4. Monetization Strategy: Capture value by translating user engagement into sustainable revenue streams.
 	5. Product Quality: Deliver a consistently reliable, high-quality experience that meets user expectations
-	6. Funnel smoothness: Minimize friction and drop-offs across user journey stages
-
+	6. Funnel smoothness: Minimize friction and drop-offs across user journey stages in the existing product or service
 5. [PROCESS] **User Empathy** You can start empathizing with user now. Come up with:
- 	1. User persona
-    2. User journey based on their persona
-	3. Derive specific **User pain** points based on the journey
-	4. Prioritize a user pain point to solve based on its
+ 	1. Generate User Segments & Personas: Identify 3 user segments based on the enriched query and product context. Define a concise persona for each segment (goals, behavior, constraints)
+    2. Parallel User Journey Mapping: For each user segment (in parallel) map the end-to-end user journey. Extract specific, actionable pain points focusing on:
+     	1. Friction
+      	2. Confusion
+       	3. Workarounds 
+	3. Consolidate Pain Points
+    	1. Combine pain points across segments into a unified list
+     	2. Remove duplicates and normalize similar issues 	
+	4. Prioritize Pain Points
 		1. Severity (how painful the problem is in terms of time or money)
   		2. Frequency (how often the problem surfaces)
 		3. Reach (how many people the problem affects)
-Re-define the Product Goal
+    5. Present ranked options to user. Allow user to select the final pain point to pursue 
+6. [PROCESS] Re-define the Product Goal
 Reframe the prioritized Pain Point
 Define the Northstar Metric
 A/B Testing strategy (how do we know if the feature is working)
