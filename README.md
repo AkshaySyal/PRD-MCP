@@ -31,13 +31,13 @@ FLOW
       3. Market trend
       4. Society trend
       5. Technology trend
-3. [OPTIONAL INPUTS] While web search is running, ask user to provide additional context as well regarding these aspects if he/she has not provided in the initial query 
-4. [PROCESS] User Empathy: Given additional context we can start Empathizing with the user. We need to think about these high level product goals:
-User Lifecycle (sequence of stages a user goes through in your product)
-Acquisition: Bringing users into the product
-Activation: The moment a new user experiences the core value of the product for the first time
-Engagement: How actively users use your product
-Monetization: how the product converts user value into revenue
+3. [OPTIONAL INPUT] While web search is running, ask user to provide additional context regarding these aspects if he/she has not provided in the initial query 
+4. [PROCESS] User Empathy: Given additional context you can start **Empathizing** with the user. You need to think about these high level product goals:
+ 	1. User Lifecycle (sequence of stages a user goes through in your product)
+    	1. Acquisition: Bringing users into the product
+     2. Activation: The moment a new user experiences the core value of the product for the first time
+	4. Engagement: How actively users use your product
+	Monetization: how the product converts user value into revenue
 User Experience
 Product Quality: how good, reliable, and satisfying the product experience is for users
 Funnel smoothness: how users move step-by-step through the product lifecycle
