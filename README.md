@@ -39,25 +39,26 @@ UPDATED PRD FLOW (thinking about Inputs, Process, Outputs structured according t
 		1. Severity (how painful the problem is in terms of time or money)
   		2. Frequency (how often the problem surfaces)
 		3. Reach (how many people the problem affects)
-    5. Present ranked options to user. Allow user to select the final pain point to pursue 
-7. [PROCESS] **Re-define the Product Goal**
+    5. Present ranked options to user.
+7. [INPUT] Allow user to select the final pain point to pursue 
+8. [PROCESS] **Re-define the Product Goal**
 	1. Reframe the Prioritized Pain Point as the product goal
 	2. Define the Northstar Metric
-8. [PROCESS] **UX Design**: Come up with 3 features to solve the Prioritized Pain Point. Till now you have been thinking logically. But here think creatively. For each feature think about:
+9. [PROCESS] **UX Design**: Come up with 3 features to solve the Prioritized Pain Point. Till now you have been thinking logically. But here think creatively. For each feature think about:
 	1. Interaction patterns
 	2. Error states
 	3. Accessibility considerations
-9. [OPTIONAL INPUT] Ask the user to review the proposed features and ask whether to include, exclude, or refine them. The user may also suggest additional features.
-10. [PROCESS] DATA SYSTEM DESIGN: For each approved feature come up with:
+10. [OPTIONAL INPUT] Ask the user to review the proposed features and ask whether to include, exclude, or refine them. The user may also suggest additional features.
+11. [PROCESS] DATA SYSTEM DESIGN: For each approved feature come up with:
   	1. A/B Testing strategy (how do we know if the feature is working)
     2. KPIs to monitor and enable decision-making regarding the feature
     3. Dashboard specs (like what visualizations to use)  
-11. [PROCESS] SOFTWARE SYSTEM DESIGN: Incorporating each approved feature come up with the following:
+12. [PROCESS] SOFTWARE SYSTEM DESIGN: Incorporating each approved feature come up with the following:
   	1. Functional requirements
     2. Non-functional requirements
     3. Dependencies (APIs, models, infra)
     Give the overall System Architecture overview
-12. [PROCESS] Finally deliver the following:
+13. [PROCESS] Finally deliver the following:
     1. End-to-end implementation of all features
     2. **Dashboard:** One screen to monitor KPIs of all the features
     3. **Risk analysis:** Generate a concise (<100 words), well-structured, bulleted writeup. For each risk category, list one realistic risk and a corresponding mitigation:
