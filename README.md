@@ -59,5 +59,8 @@ UPDATED PRD FLOW (thinking about Inputs, Process, Outputs structured according t
     Give the overall System Architecture overview
 12. [PROCESS] Finally deliver the following:
     1. End-to-end implementation of all features
-    2. Dashboard screen (one page to monitor KPIs of all the features)
-    3. Generate a concise (<100 words), well-structured risk analysis. For each category, list one realistic risk and a corresponding mitigation. Use bullet points. Cover: Product, Technical, and Data risks.
+    2. **Dashboard:** One screen to monitor KPIs of all the features
+    3. **Risk analysis:** Generate a concise (<100 words), well-structured, bulleted writeup. For each risk category, list one realistic risk and a corresponding mitigation:
+       	1. Product
+       	2. Technical
+       	3. Data 
