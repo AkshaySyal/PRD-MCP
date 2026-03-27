@@ -49,19 +49,18 @@ UPDATED PRD FLOW (thinking about Inputs, Process, Outputs structured according t
 	2. Error states
 	3. Accessibility considerations
 10. [OPTIONAL INPUT] Ask the user to review the proposed features and ask whether to include, exclude, or refine them. The user may also suggest additional features.
-11. [PROCESS] DATA SYSTEM DESIGN: For each approved feature come up with:
-  	1. A/B Testing strategy (how do we know if the feature is working)
-    2. KPIs to monitor and enable decision-making regarding the feature
-    3. Dashboard specs (like what visualizations to use)  
-12. [PROCESS] SOFTWARE SYSTEM DESIGN: Incorporating each approved feature come up with the following:
-  	1. Functional requirements
-    2. Non-functional requirements
-    3. Dependencies (APIs, models, infra)
-    Give the overall System Architecture overview
-13. [PROCESS] Finally deliver the following:
-    1. End-to-end implementation of all features
-    2. **Dashboard:** One screen to monitor KPIs of all the features
-    3. **Risk analysis:** Generate a concise (<100 words), well-structured, bulleted writeup. For each risk category, list one realistic risk and a corresponding mitigation:
+11. [PROCESS] Finally deliver the following WRITEUPS in a concise, well-structured, numbered format:
+	1. DATA SYSTEM DESIGN: For each approved feature come up with:
+  		1. A/B Testing strategy (how do we know if the feature is working)
+    	2. KPIs to monitor and enable decision-making regarding the feature
+    	3. Dashboard specs (like what visualizations to use)  
+	2. SOFTWARE SYSTEM DESIGN: Incorporating each approved feature come up with the following:
+  		1. Functional requirements
+    	2. Non-functional requirements
+    	3. Dependencies (APIs, models, infra)
+    	4. Overall System Architecture overview
+    3. RISK ANALYSIS: For each risk category, list one realistic risk and a corresponding mitigation:
        	1. Product
        	2. Technical
-       	3. Data 
+       	3. Data
+12. [OPTIONAL INPUT] Ask the user to review the proposed plans and ask whether to include, exclude, or refine.
