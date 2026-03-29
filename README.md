@@ -42,7 +42,7 @@ UPDATED PRD FLOW (thinking about Inputs, Process, Outputs structured according t
     5. Present ranked options to user.
 7. [INPUT] Allow user to select the final pain point to pursue 
 8. [PROCESS] **Re-define the Product Goal**
-	1. Reframe the Prioritized Pain Point as the product goal
+	1. Reframe the Prioritized Pain Point as the product goal. Give me the exact source of evidence about the pain point.
 	2. Define the Northstar Metric
 9. [PROCESS] **UX Design**: Come up with 3 features to solve the Prioritized Pain Point. Till now you have been thinking logically. But here think creatively. For each feature think about:
 	1. Interaction patterns
@@ -64,3 +64,30 @@ UPDATED PRD FLOW (thinking about Inputs, Process, Outputs structured according t
        	2. Technical
        	3. Data
 12. [OPTIONAL INPUT] Ask the user to review the proposed plans and ask whether to include, exclude, or refine.
+
+need to use skill-creator skill 
+I need to find and configure skills for the things I don't know how to do. Over time, I need to iterate on them and define how to do them properly.
+- UX Design is something that could be done for web and app by the LLM. But for certain applications like voice agents, I need to do it
+- A/B testing skill
+- Software System Design skill
+- Risk Analysis
+
+I think I wanna write test cases to ensure the app works and demo does not break. When I think about test cases, I can think of positive and negative Acceptance Test Cases. But I think the coding agent should think of test cases at all levels as it generates code.
+
+The Skills course reveals that multiple sub-agents are created for specific tasks. And their specific instructions are written inside skills folder. This prevents overloading the context window of the main coding agent, it focuses on development, while the sub-agents perform their specific tasks according to their specific best practices. Sub-agents used: code-reviewer and test-generator
+
+
+When building a demo the first 6 steps of SDLC must be followed:
+1. Planning [Agentic + User] (Current)
+2. Requirements Analysis [Agentic + User] (Current)
+3. System Design [Agentic + User] (I have limited knowledge)
+4. Implementation (Coding) [Purely Agentic] (Need best practices) [Need to learn how to configure]
+5. Testing [Agentic + User] (Need best practices) [Need to learn how to configure]
+6. Deployment [Purely Agentic] (Need best practices) [Need to learn how to configure]
+7. Maintenance (Part of the pitch) (A/B testing) (I have limited knowledge)
+
+Maybe I can get 4,5,6 generated or web fetched. And that could be used to setup the coding environment.
+For now, need to rely on replit
+
+I think I can use Replit entirely to build this end-to-end. Need to re-arrange the prompt at 11 and add test case point also.
+Also, populate databases with fake data. I don't want the dashboards to look empty.
