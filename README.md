@@ -1,19 +1,24 @@
 # IDEATION-PROMPTS
 Instead of fixing plan mode, idea is to leverage deep research feature and prompts to get to idea quickly
 
-1. **User query**: Give a core idea, a problem to solve or just give a specific library or API to use or literally anything
-2. **User query enrichment**: Gather additional context (maybe provide links or give a certain number of web searches to perform)
+1. **User query:** Give a core idea, a problem to solve or just give a specific library or API to use or literally anything
+2. **Ideation Paths:** Start 3 parallel sub-agents who try to ideate in their specific ways
+ 	1. **Surface User Issues:** Research what users are saying about the product/service across public internet sources such as Google Reviews, Reddit, YouTube, app store reviews [google, apple, chrome], blogs, forums, LinkedIn, X, GitHub, Quora, Medium articles etc.
+	2. **Company-specific Product Goal**: Analyze the company to infer its likely high-level product objective. Clearly explain why each potential objective is relevant, grounding your reasoning in specific evidence rather than generic assumptions. Then, synthesize these signals to determine which objective the company is most likely prioritizing at the current stage, and justify your conclusion with the strongest supporting indicators.:
+		1. User Acquisition: Bring more users into the product
+	  	2. Activation: Reduce time-to-value by enabling users to reach the product’s core value as quickly as possible.
+		3. Engagement: Drive deeper and more frequent interactions that reflect meaningful product usage
+		4. Monetization Strategy: Capture value by translating user engagement into sustainable revenue streams.
+		5. Product Quality: Deliver a consistently reliable, high-quality experience that meets user expectations
+		6. Funnel smoothness: Minimize friction and drop-offs across user journey stages in the existing product or service
+	
+
+Gather additional context (maybe provide links or give a certain number of web searches to perform)
    1. Do a web search on:
       1. Market trend (Existing similar Product or Service, Competitors)
       2. Societal trend
       3. Technology trend 
-3. **Prioritizing the High-level Product Goal**: Prioritize a high-level product objective. You should clearly justify why each product goal is relevant and provide a recommendation on which goal to pursue. ASK MEfor the final decision on which product goal to prioritize:
- 	1. User Acquisition: Bring more users into the product
-  	2. Activation: Reduce time-to-value by enabling users to reach the product’s core value as quickly as possible.
-	3. Engagement: Drive deeper and more frequent interactions that reflect meaningful product usage
-	4. Monetization Strategy: Capture value by translating user engagement into sustainable revenue streams.
-	5. Product Quality: Deliver a consistently reliable, high-quality experience that meets user expectations
-	6. Funnel smoothness: Minimize friction and drop-offs across user journey stages in the existing product or service
+
 4. **User Empathy** You can start empathizing with user now:
  	1. Generate User Segments & Personas: Identify 3 user segments based on the enriched query and product context. Define a concise persona for each segment (goals, behavior, constraints)
     2. Parallel User Journey Mapping: For each user segment (in parallel) map the end-to-end user journey. Extract specific, actionable pain points focusing on:
